@@ -214,5 +214,19 @@ plt.legend()
 plt.title('Model D')
 plt.show()
 
+from astropy.table import Table
+
+rows1=[('a',a0[0], 0,0,0),('b', b0, b1,0,0), ('c', c0, c1,c2,0),
+       ('d', d0,d1,d2,d3)]
+
+t1 = Table(rows=rows1, names=('Model', 'b0*', 'b1*', 'b2*','b3*'))
+print(t1)
+
+
+cost_rows1=[('a',Cost_a),('b',Cost_b), ('c',Cost_c),
+       ('d', Cost_d)]
+
+cost_t1 = Table(rows=cost_rows1, names=('model', 'cost'))
+print(cost_t1)
 
 
