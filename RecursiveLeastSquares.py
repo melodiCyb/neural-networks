@@ -154,23 +154,6 @@ plt.show()
 
 # ### Generate a table showing each model's parameters along with the value of the cost function.
 
-from astropy.table import Table
-
-rows1=[('a',a0[0], 0,0,0),('b', b0, b1,0,0), ('c', c0, c1,c2,0),
-       ('d', d0,d1,d2,d3)]
-
-t1 = Table(rows=rows1, names=('Model', 'b0*', 'b1*', 'b2*','b3*'))
-print(t1)
-
-
-cost_rows1=[('a',Cost_a),('b',Cost_b), ('c',Cost_c),
-       ('d', Cost_d)]
-
-cost_t1 = Table(rows=cost_rows1, names=('model', 'cost'))
-print(cost_t1)
-
-
-
 rows2=[('Recursive a',Ra_b0[0][0], 0,0,0),('Recursive b', Rb_[0], Rb_[1],0,0), ('Recursive c', Rc_[0], Rc_[1],Rc_[2],0),('Recursive d', Rd_[0],Rd_[1],Rd_[2],Rd_[3])]
 
 t2 = Table(rows=rows2, names=('Model', 'b0*', 'b1*', 'b2*','b3*'))
@@ -185,5 +168,3 @@ cost_t2 = Table(rows=cost_rows2, names=('model', 'cost'))
 print(cost_t2)
 
 
-#         In either case Model c and Model b gives better results than the others
-#         since our model is a noisy version of Model c.
