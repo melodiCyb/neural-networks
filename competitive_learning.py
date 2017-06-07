@@ -1,8 +1,5 @@
 
 
-# **Mine Melodi Çalışkan - 2015705009 **
-
-
 import numpy as np
 import pandas as pd
 
