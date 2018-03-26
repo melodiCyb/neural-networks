@@ -5,3 +5,4 @@
 * Perceptron Model
 * Linear & Recursive Least Squares Regression
 * Complex-valued Neural Networks 
+* Stochastic Gradient Descent and RMSProp algorithm
