@@ -1,11 +1,17 @@
 # Neural Network Simulations 
-* Deep Recurrent Attentive Writer (DRAW), Data: Quick, Draw!
+
+CmpE 597 - Deep Learning
+* Research Project: Deep Recurrent Attentive Writer (DRAW), Data: Quick, Draw!
 ![draw](https://github.com/melodiCyb/NeuralNetworks/blob/master/catdraw.gif)
-* Binary Hopfield Neural Networks,  Data: Hand-written digits
-* Multi Layer Perceptron, Data: XOR, Sinus, Iris
 * Stochastic Gradient Descent and RMSProp algorithm
-* Competitive Neural Network, Data: Spherical coordinates
-* Complex-valued Neural Networks 
-* Perceptron Model
+
+EE 550 - Artificial Neural Networks 
 * Linear & Recursive Least Squares Regression
+* Binary Hopfield Neural Networks,  Data: Hand-written digits
+* Perceptron Model
+* Multi Layer Perceptron, Data: XOR, Sinus, Iris
+* Competitive Neural Network, Data: Spherical coordinates
+
+MATH 432 - Complex Analysis II 
+* Research Project: Complex-valued Neural Networks 
 
