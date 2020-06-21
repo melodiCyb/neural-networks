@@ -12,6 +12,6 @@ EE 550 - Artificial Neural Networks
 * Multi Layer Perceptron, Data: XOR, Sinus, Iris
 * Competitive Neural Network, Data: Spherical coordinates
 
-MATH 432 - Complex Analysis II 
+MATH 431 - Complex Analysis I 
 * Research Project: Complex-valued Neural Networks 
 
